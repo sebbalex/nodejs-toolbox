@@ -1,10 +1,8 @@
-dpt_bogus_path=${1:-"$HOME/dpt-bogus"}
-
 function docker_run_stoolbox {
   docker run --rm -it \
     -p 3000:3000 \
     -v $PWD:/devops \
-    sebbalex-toolbox:latest $@
+    nodejs-toolbox:latest $@
 }
 
 node() {
