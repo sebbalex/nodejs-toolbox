@@ -16,4 +16,5 @@ $ node -v
 $ npm -v
 $ deno --version
 $ yarn -v
+$ ncu --version
 ```
