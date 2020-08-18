@@ -32,3 +32,7 @@ deno() {
 yarn() {
   docker_run_stoolbox yarn $@
 }
+
+ncu() {
+  docker_run_stoolbox ncu $@
+}

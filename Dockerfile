@@ -51,3 +51,7 @@ ENV PATH      /root/.deno/bin:$PATH
 FROM deno AS yarn
 
 RUN npm install -g yarn
+
+FROM yarn AS ncu
+
+RUN npm install -g npm-check-updates
